@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="16dp"
+    app:cardElevation="6dp"
+    app:cardUseCompatPadding="true"
+    android:foreground="?android:attr/selectableItemBackground">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <!-- Индикатор загрузки изображения -->
+        <ProgressBar
+            android:id="@+id/imageLoading"
+            style="?android:attr/progressBarStyle"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_centerInParent="true"
+            android:visibility="gone" />
+
+        <!-- Флаг страны -->
+        <ImageView
+            android:id="@+id/flagImage"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:scaleType="centerCrop"
+            android:background="@color/red"
+            android:contentDescription="Флаг страны" />
+
+        <!-- Бейдж популярности -->
+        <TextView
+            android:id="@+id/popularityText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/flagImage"
+            android:layout_alignEnd="@id/flagImage"
+            android:layout_margin="8dp"
+
+            android:paddingHorizontal="8dp"
+            android:paddingVertical="4dp"
+            android:text="★★★★★"
+            android:textColor="@color/white"
+            android:textSize="12sp" />
+
+        <!-- Название страны -->
+        <TextView
+            android:id="@+id/countryName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/flagImage"
+            android:layout_marginTop="12dp"
+            android:text="Страна"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:gravity="center" />
+
+        <!-- Столица -->
+        <TextView
+            android:id="@+id/capitalText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/countryName"
+            android:layout_marginTop="4dp"
+            android:text="Столица: -"
+            android:textSize="14sp"
+            android:textColor="@color/red"
+            android:gravity="center" />
+
+        <!-- Количество туров -->
+        <TextView
+            android:id="@+id/toursCountText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/capitalText"
+            android:layout_marginTop="8dp"
+            android:text="Туров: 0"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:textColor="@color/red"
+            android:gravity="center" />
+
+        <!-- Индикатор "Кликабельно" -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/toursCountText"
+            android:layout_marginTop="8dp"
+            android:text="Нажмите для выбора →"
+            android:textSize="12sp"
+            android:textColor="@color/red"
+            android:gravity="center"
+            android:visibility="gone" />
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">Travel Agency</string>
+    <string name="login">Логин</string>
+    <string name="password">Пароль</string>
+    <string name="email">Email</string>
+    <string name="enter">Войти</string>
+    <string name="hello_user">Добро пожаловать</string>
+    <string name="your_tours">Ваши туры</string>
+    <string name="buy_new_tours">Купить новые туры</string>
+    <string name="title">Название</string>
+    <string name="country">Страна</string>
+    <string name="date">Дата</string>
+    <string name="price">Цена</string>
+    <string name="add_tour">Добавить тур</string>
+    <string name="tour_title">Название тура</string>
+    <string name="tour_price">Цена тура</string>
+    <string name="current_tours">Текущие туры</string>
+    <string name="users">Пользователи</string>
+    <string name="editing_tour">Редактирование тура</string>
+    <string name="editing_user">Редактирование пользователя</string>
+    <string name="save">Сохранить</string>
+    <string name="edit">Редактировать</string>
+    <string name="delete">Удалить</string>
+    <string name="admin">Администратор</string>
+    <string name="loading">Travel Agency</string>
+    <string name="back">Назад</string>
+    <string name="buy_this_tour">Купить тур</string>
+    <string name="name">Имя покупателя</string>
+    <string name="username">Имя пользователя</string>
+
+    <!-- Новые строки -->
+    <string name="search_hint">Поиск туров...</string>
+    <string name="client_info">Информация о клиенте</string>
+    <string name="total_purchases">Куплено туров</string>
+    <string name="total_spent">Потрачено</string>
+    <string name="discount_level">Уровень скидки</string>
+    <string name="order_number">Заказ №</string>
+    <string name="original_price">Оригинальная цена</string>
+    <string name="discount_applied">Скидка</string>
+    <string name="final_price">Итоговая цена</string>
+    <string name="available_seats">Доступные места</string>
+    <string name="duration">Длительность</string>
+    <string name="days">дней</string>
+    <string name="capital">Столица</string>
+    <string name="tours_count">Туров</string>
+    <string name="popularity">Популярность</string>
+    <string name="group_by_country">Группировка по странам</string>
+    <string name="group_by_client">Группировка по клиентам</string>
+    <string name="status">Статус</string>
+    <string name="pending">Ожидание</string>
+    <string name="confirmed">Подтвержден</string>
+    <string name="completed">Завершен</string>
+    <string name="cancelled">Отменен</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
